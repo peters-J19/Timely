@@ -28,4 +28,4 @@ React Native, Expo (SDK 54), Expo Router, TypeScript, React Native Reanimated an
 
 ## Status
 
-Timely was built as a class project at Biola University. The features above were completed, while others were planned for later and never built. It's no longer maintained and runs on an older version of Expo (SDK 54). Places and presets are kept in memory, so they reset when the app restarts, and time zones are whole-hour UTC offsets (-12 to +12).
+Timely was built as a class project during my senior year at Biola University. The features above were completed, while others were planned for later and never built. It's no longer maintained and runs on an older version of Expo (SDK 54). Places and presets are kept in memory, so they reset when the app restarts, and time zones are whole-hour UTC offsets (-12 to +12).
