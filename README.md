@@ -2,6 +2,14 @@
 
 A React Native (Expo) app for comparing time zones and finding a time that works for everyone. Add the people or places you keep in touch with, along with their time zone and usual sleep hours, and Timely shows when each one is awake and when everyone overlaps.
 
+<p align="center">
+  <img src="screenshots/intro.png" width="240" alt="Timely intro screen" />
+  &nbsp;
+  <img src="screenshots/cylinder.png" width="240" alt="Cylinder view" />
+  &nbsp;
+  <img src="screenshots/map.png" width="240" alt="Map view" />
+</p>
+
 ## Two views
 
 - **Cylinder:** each place is a rotating 24-hour cylinder. Set the time for one place and the others show what time it is there, with day and night shading.
@@ -20,14 +28,14 @@ React Native, Expo (SDK 54), Expo Router, TypeScript, React Native Reanimated an
 
 ## Status
 
-Not under active development. Places and presets are kept in memory, so they reset when the app restarts, and time zones are whole-hour UTC offsets (-12 to +12).
+Built in 2025 on Expo SDK 54. It isn't published or maintained anymore, so newer versions of Expo Go won't open it without an upgrade, but it still runs in a browser (see below). Places and presets are kept in memory and reset when the app restarts, and time zones are whole-hour UTC offsets (-12 to +12).
 
 ## Running it
 
 ```bash
 cd timely
 npm install
-npx expo start
+npx expo start --web
 ```
 
-Press `w` to open it in a browser, or open it with an Expo Go version that supports SDK 54.
+It's designed for a phone screen, so it looks best with the browser's device toolbar set to a phone size.
