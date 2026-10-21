@@ -24,7 +24,7 @@ A React Native (Expo) app for comparing time zones and finding a time that works
 
 ## Tech
 
-React Native, Expo (SDK 54), Expo Router, TypeScript, React Native Reanimated and react-native-svg. Both views read from the same shared state through a React context.
+The app's screens and components were designed in Figma first, then built with React Native, Expo (SDK 54), Expo Router, TypeScript, React Native Reanimated and react-native-svg. Both views read from the same shared state through a React context.
 
 ## Status
 
