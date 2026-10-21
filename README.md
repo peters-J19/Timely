@@ -28,14 +28,4 @@ React Native, Expo (SDK 54), Expo Router, TypeScript, React Native Reanimated an
 
 ## Status
 
-Built in 2025 on Expo SDK 54. It isn't published or maintained anymore, so newer versions of Expo Go won't open it without an upgrade, but it still runs in a browser (see below). Places and presets are kept in memory and reset when the app restarts, and time zones are whole-hour UTC offsets (-12 to +12).
-
-## Running it
-
-```bash
-cd timely
-npm install
-npx expo start --web
-```
-
-It's designed for a phone screen, so it looks best with the browser's device toolbar set to a phone size.
+Timely was built as a class project at Biola University. The features above were completed, while others were planned for later and never built. It's no longer maintained and runs on an older version of Expo (SDK 54). Places and presets are kept in memory, so they reset when the app restarts, and time zones are whole-hour UTC offsets (-12 to +12).
